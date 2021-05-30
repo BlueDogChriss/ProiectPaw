@@ -28,6 +28,9 @@ namespace Proiect_PAW_Munteanu_Cristian
         private void guna2CircleButtonClose_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
         }
 
         private void guna2TextBoxRegisterPassword_TextChanged(object sender, EventArgs e)

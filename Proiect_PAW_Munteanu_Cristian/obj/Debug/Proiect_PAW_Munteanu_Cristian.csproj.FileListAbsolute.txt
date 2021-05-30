@@ -83,3 +83,4 @@ E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Crist
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.pdb
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ProductsForm.resources
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.FormRegister.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ManageUser.resources

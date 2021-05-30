@@ -16,7 +16,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ManageUser());
         }
     }
 }

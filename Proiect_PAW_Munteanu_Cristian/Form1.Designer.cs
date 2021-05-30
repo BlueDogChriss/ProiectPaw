@@ -121,10 +121,11 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxPassword.ShadowDecoration.Parent = this.guna2TextBoxPassword;
             this.guna2TextBoxPassword.Size = new System.Drawing.Size(229, 38);
             this.guna2TextBoxPassword.TabIndex = 3;
+            this.guna2TextBoxPassword.TextChanged += new System.EventHandler(this.guna2TextBoxPassword_TextChanged);
             // 
             // guna2CircleButtonClose
             // 
-            this.guna2CircleButtonClose.BackColor = System.Drawing.Color.MintCream;
+            this.guna2CircleButtonClose.BackColor = System.Drawing.Color.Transparent;
             this.guna2CircleButtonClose.CheckedState.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.CustomImages.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;

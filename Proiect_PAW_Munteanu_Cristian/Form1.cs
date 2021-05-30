@@ -26,7 +26,10 @@ namespace Proiect_PAW_Munteanu_Cristian
         {
             Application.Exit();
         }
-
+        private void guna2TextBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+            guna2TextBoxPassword.UseSystemPasswordChar = true;
+        }
         private void guna2CheckBoxShowPassword_CheckedChanged(object sender, EventArgs e)
         {
             if(guna2CheckBoxShowPassword.Checked == false)
@@ -52,5 +55,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             fr.ShowDialog();
             
         }
+
+      
     }
 }
