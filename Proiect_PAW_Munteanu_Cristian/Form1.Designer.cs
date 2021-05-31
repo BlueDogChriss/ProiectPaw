@@ -58,7 +58,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientCircleButton1.DisabledState.Parent = this.guna2GradientCircleButton1;
             this.guna2GradientCircleButton1.FillColor = System.Drawing.Color.SkyBlue;
             this.guna2GradientCircleButton1.FillColor2 = System.Drawing.Color.MediumSpringGreen;
-            this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton1.ForeColor = System.Drawing.Color.Transparent;
             this.guna2GradientCircleButton1.HoverState.Parent = this.guna2GradientCircleButton1;
             this.guna2GradientCircleButton1.Location = new System.Drawing.Point(29, 382);
@@ -82,7 +82,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBoxUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxUsername.FocusedState.Parent = this.guna2TextBoxUsername;
-            this.guna2TextBoxUsername.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBoxUsername.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxUsername.HoverState.Parent = this.guna2TextBoxUsername;
             this.guna2TextBoxUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxUsername.IconLeft")));
@@ -109,7 +109,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBoxPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxPassword.FocusedState.Parent = this.guna2TextBoxPassword;
-            this.guna2TextBoxPassword.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBoxPassword.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxPassword.HoverState.Parent = this.guna2TextBoxPassword;
             this.guna2TextBoxPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxPassword.IconLeft")));
@@ -134,7 +134,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2CircleButtonClose.DisabledState.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.FillColor = System.Drawing.Color.LightCoral;
-            this.guna2CircleButtonClose.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButtonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButtonClose.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButtonClose.HoverState.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonClose.Image")));
@@ -150,7 +150,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             // 
             this.comboBoxRol.BackColor = System.Drawing.Color.White;
             this.comboBoxRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxRol.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxRol.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRol.FormattingEnabled = true;
             this.comboBoxRol.Items.AddRange(new object[] {
@@ -158,7 +158,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             "USER"});
             this.comboBoxRol.Location = new System.Drawing.Point(423, 142);
             this.comboBoxRol.Name = "comboBoxRol";
-            this.comboBoxRol.Size = new System.Drawing.Size(123, 30);
+            this.comboBoxRol.Size = new System.Drawing.Size(123, 28);
             this.comboBoxRol.TabIndex = 5;
             this.comboBoxRol.Text = "Select Role";
             // 
@@ -176,7 +176,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientButton1.DisabledState.Parent = this.guna2GradientButton1;
             this.guna2GradientButton1.FillColor = System.Drawing.Color.SkyBlue;
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.MediumSpringGreen;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
@@ -205,11 +205,11 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.labelNumeFirma.AutoSize = true;
             this.labelNumeFirma.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeFirma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelNumeFirma.Font = new System.Drawing.Font("Montserrat Black", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumeFirma.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumeFirma.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.labelNumeFirma.Location = new System.Drawing.Point(415, 38);
             this.labelNumeFirma.Name = "labelNumeFirma";
-            this.labelNumeFirma.Size = new System.Drawing.Size(170, 48);
+            this.labelNumeFirma.Size = new System.Drawing.Size(154, 39);
             this.labelNumeFirma.TabIndex = 8;
             this.labelNumeFirma.Text = "TechMC";
             this.labelNumeFirma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -228,7 +228,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientCircleButton2.DisabledState.Parent = this.guna2GradientCircleButton2;
             this.guna2GradientCircleButton2.FillColor = System.Drawing.Color.SkyBlue;
             this.guna2GradientCircleButton2.FillColor2 = System.Drawing.Color.MediumSpringGreen;
-            this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton2.ForeColor = System.Drawing.Color.Transparent;
             this.guna2GradientCircleButton2.HoverState.Parent = this.guna2GradientCircleButton2;
             this.guna2GradientCircleButton2.Location = new System.Drawing.Point(-151, -109);
@@ -243,11 +243,11 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.labelClear.AutoSize = true;
             this.labelClear.BackColor = System.Drawing.Color.Transparent;
             this.labelClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelClear.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelClear.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.labelClear.Location = new System.Drawing.Point(384, 357);
             this.labelClear.Name = "labelClear";
-            this.labelClear.Size = new System.Drawing.Size(54, 22);
+            this.labelClear.Size = new System.Drawing.Size(51, 20);
             this.labelClear.TabIndex = 10;
             this.labelClear.Text = "Clear";
             this.labelClear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -262,11 +262,11 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CheckBoxShowPassword.CheckedState.BorderThickness = 0;
             this.guna2CheckBoxShowPassword.CheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2CheckBoxShowPassword.CheckMarkColor = System.Drawing.Color.MediumSpringGreen;
-            this.guna2CheckBoxShowPassword.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold);
+            this.guna2CheckBoxShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Bold);
             this.guna2CheckBoxShowPassword.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.guna2CheckBoxShowPassword.Location = new System.Drawing.Point(444, 360);
             this.guna2CheckBoxShowPassword.Name = "guna2CheckBoxShowPassword";
-            this.guna2CheckBoxShowPassword.Size = new System.Drawing.Size(118, 19);
+            this.guna2CheckBoxShowPassword.Size = new System.Drawing.Size(115, 17);
             this.guna2CheckBoxShowPassword.TabIndex = 11;
             this.guna2CheckBoxShowPassword.Text = "Show Password";
             this.guna2CheckBoxShowPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -282,7 +282,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.buttonRegister.BackColor = System.Drawing.Color.Transparent;
             this.buttonRegister.FlatAppearance.BorderSize = 0;
             this.buttonRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRegister.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRegister.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.buttonRegister.Location = new System.Drawing.Point(410, 382);
             this.buttonRegister.Name = "buttonRegister";
@@ -294,7 +294,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(788, 530);
@@ -310,7 +310,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.Controls.Add(this.guna2TextBoxPassword);
             this.Controls.Add(this.guna2TextBoxUsername);
             this.Controls.Add(this.guna2GradientCircleButton1);
-            this.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

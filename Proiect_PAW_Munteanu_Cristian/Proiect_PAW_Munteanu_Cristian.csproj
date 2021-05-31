@@ -144,8 +144,8 @@
     <Reference Include="Bunifu.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Bunifu.Utils.1.0.3\lib\net45\Bunifu.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI2, Version=1.0.1.5, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Guna.UI2.WinForms.2.0.1.5\lib\net40\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2, Version=1.0.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.1.6\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="OpenHtmlToPdf, Version=1.12.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\OpenHtmlToPdf.1.12.0.0\lib\net45\OpenHtmlToPdf.dll</HintPath>
