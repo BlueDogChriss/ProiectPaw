@@ -34,9 +34,8 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton3 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton4 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.guna2TextBoxRegisterPrenume = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBoxRegisterFullName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2TextBoxRegisterNume = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBoxRegisterUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBoxRegisterPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBoxRegisterEmail = new Guna.UI2.WinForms.Guna2TextBox();
@@ -139,33 +138,33 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientCircleButton4.Size = new System.Drawing.Size(198, 205);
             this.guna2GradientCircleButton4.TabIndex = 3;
             // 
-            // guna2TextBoxRegisterPrenume
+            // guna2TextBoxRegisterFullName
             // 
-            this.guna2TextBoxRegisterPrenume.BorderColor = System.Drawing.Color.MediumSpringGreen;
-            this.guna2TextBoxRegisterPrenume.BorderRadius = 15;
-            this.guna2TextBoxRegisterPrenume.BorderThickness = 2;
-            this.guna2TextBoxRegisterPrenume.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBoxRegisterPrenume.DefaultText = "";
-            this.guna2TextBoxRegisterPrenume.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBoxRegisterPrenume.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBoxRegisterPrenume.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxRegisterPrenume.DisabledState.Parent = this.guna2TextBoxRegisterPrenume;
-            this.guna2TextBoxRegisterPrenume.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxRegisterPrenume.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBoxRegisterPrenume.FocusedState.Parent = this.guna2TextBoxRegisterPrenume;
-            this.guna2TextBoxRegisterPrenume.Font = new System.Drawing.Font("Montserrat", 8.999999F);
-            this.guna2TextBoxRegisterPrenume.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
-            this.guna2TextBoxRegisterPrenume.HoverState.Parent = this.guna2TextBoxRegisterPrenume;
-            this.guna2TextBoxRegisterPrenume.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterPrenume.IconLeft")));
-            this.guna2TextBoxRegisterPrenume.Location = new System.Drawing.Point(114, 193);
-            this.guna2TextBoxRegisterPrenume.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.guna2TextBoxRegisterPrenume.Name = "guna2TextBoxRegisterPrenume";
-            this.guna2TextBoxRegisterPrenume.PasswordChar = '\0';
-            this.guna2TextBoxRegisterPrenume.PlaceholderText = "Prenume";
-            this.guna2TextBoxRegisterPrenume.SelectedText = "";
-            this.guna2TextBoxRegisterPrenume.ShadowDecoration.Parent = this.guna2TextBoxRegisterPrenume;
-            this.guna2TextBoxRegisterPrenume.Size = new System.Drawing.Size(304, 53);
-            this.guna2TextBoxRegisterPrenume.TabIndex = 4;
+            this.guna2TextBoxRegisterFullName.BorderColor = System.Drawing.Color.MediumSpringGreen;
+            this.guna2TextBoxRegisterFullName.BorderRadius = 15;
+            this.guna2TextBoxRegisterFullName.BorderThickness = 2;
+            this.guna2TextBoxRegisterFullName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBoxRegisterFullName.DefaultText = "";
+            this.guna2TextBoxRegisterFullName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBoxRegisterFullName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBoxRegisterFullName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBoxRegisterFullName.DisabledState.Parent = this.guna2TextBoxRegisterFullName;
+            this.guna2TextBoxRegisterFullName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBoxRegisterFullName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxRegisterFullName.FocusedState.Parent = this.guna2TextBoxRegisterFullName;
+            this.guna2TextBoxRegisterFullName.Font = new System.Drawing.Font("Montserrat", 8.999999F);
+            this.guna2TextBoxRegisterFullName.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
+            this.guna2TextBoxRegisterFullName.HoverState.Parent = this.guna2TextBoxRegisterFullName;
+            this.guna2TextBoxRegisterFullName.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterFullName.IconLeft")));
+            this.guna2TextBoxRegisterFullName.Location = new System.Drawing.Point(124, 266);
+            this.guna2TextBoxRegisterFullName.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.guna2TextBoxRegisterFullName.Name = "guna2TextBoxRegisterFullName";
+            this.guna2TextBoxRegisterFullName.PasswordChar = '\0';
+            this.guna2TextBoxRegisterFullName.PlaceholderText = "Full Name";
+            this.guna2TextBoxRegisterFullName.SelectedText = "";
+            this.guna2TextBoxRegisterFullName.ShadowDecoration.Parent = this.guna2TextBoxRegisterFullName;
+            this.guna2TextBoxRegisterFullName.Size = new System.Drawing.Size(304, 53);
+            this.guna2TextBoxRegisterFullName.TabIndex = 4;
             // 
             // label1
             // 
@@ -179,34 +178,6 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.label1.Size = new System.Drawing.Size(186, 44);
             this.label1.TabIndex = 5;
             this.label1.Text = "REGISTER";
-            // 
-            // guna2TextBoxRegisterNume
-            // 
-            this.guna2TextBoxRegisterNume.BorderColor = System.Drawing.Color.MediumSpringGreen;
-            this.guna2TextBoxRegisterNume.BorderRadius = 15;
-            this.guna2TextBoxRegisterNume.BorderThickness = 2;
-            this.guna2TextBoxRegisterNume.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBoxRegisterNume.DefaultText = "";
-            this.guna2TextBoxRegisterNume.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBoxRegisterNume.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBoxRegisterNume.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxRegisterNume.DisabledState.Parent = this.guna2TextBoxRegisterNume;
-            this.guna2TextBoxRegisterNume.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBoxRegisterNume.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBoxRegisterNume.FocusedState.Parent = this.guna2TextBoxRegisterNume;
-            this.guna2TextBoxRegisterNume.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBoxRegisterNume.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
-            this.guna2TextBoxRegisterNume.HoverState.Parent = this.guna2TextBoxRegisterNume;
-            this.guna2TextBoxRegisterNume.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterNume.IconLeft")));
-            this.guna2TextBoxRegisterNume.Location = new System.Drawing.Point(114, 254);
-            this.guna2TextBoxRegisterNume.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.guna2TextBoxRegisterNume.Name = "guna2TextBoxRegisterNume";
-            this.guna2TextBoxRegisterNume.PasswordChar = '\0';
-            this.guna2TextBoxRegisterNume.PlaceholderText = "Nume";
-            this.guna2TextBoxRegisterNume.SelectedText = "";
-            this.guna2TextBoxRegisterNume.ShadowDecoration.Parent = this.guna2TextBoxRegisterNume;
-            this.guna2TextBoxRegisterNume.Size = new System.Drawing.Size(304, 53);
-            this.guna2TextBoxRegisterNume.TabIndex = 6;
             // 
             // guna2TextBoxRegisterUsername
             // 
@@ -226,7 +197,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxRegisterUsername.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxRegisterUsername.HoverState.Parent = this.guna2TextBoxRegisterUsername;
             this.guna2TextBoxRegisterUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterUsername.IconLeft")));
-            this.guna2TextBoxRegisterUsername.Location = new System.Drawing.Point(114, 315);
+            this.guna2TextBoxRegisterUsername.Location = new System.Drawing.Point(124, 327);
             this.guna2TextBoxRegisterUsername.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2TextBoxRegisterUsername.Name = "guna2TextBoxRegisterUsername";
             this.guna2TextBoxRegisterUsername.PasswordChar = '\0';
@@ -254,7 +225,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxRegisterPassword.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxRegisterPassword.HoverState.Parent = this.guna2TextBoxRegisterPassword;
             this.guna2TextBoxRegisterPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterPassword.IconLeft")));
-            this.guna2TextBoxRegisterPassword.Location = new System.Drawing.Point(114, 376);
+            this.guna2TextBoxRegisterPassword.Location = new System.Drawing.Point(124, 388);
             this.guna2TextBoxRegisterPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2TextBoxRegisterPassword.Name = "guna2TextBoxRegisterPassword";
             this.guna2TextBoxRegisterPassword.PasswordChar = '\0';
@@ -283,7 +254,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxRegisterEmail.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxRegisterEmail.HoverState.Parent = this.guna2TextBoxRegisterEmail;
             this.guna2TextBoxRegisterEmail.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterEmail.IconLeft")));
-            this.guna2TextBoxRegisterEmail.Location = new System.Drawing.Point(114, 479);
+            this.guna2TextBoxRegisterEmail.Location = new System.Drawing.Point(124, 491);
             this.guna2TextBoxRegisterEmail.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2TextBoxRegisterEmail.Name = "guna2TextBoxRegisterEmail";
             this.guna2TextBoxRegisterEmail.PasswordChar = '\0';
@@ -311,7 +282,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxRegisterTelefon.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxRegisterTelefon.HoverState.Parent = this.guna2TextBoxRegisterTelefon;
             this.guna2TextBoxRegisterTelefon.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterTelefon.IconLeft")));
-            this.guna2TextBoxRegisterTelefon.Location = new System.Drawing.Point(114, 540);
+            this.guna2TextBoxRegisterTelefon.Location = new System.Drawing.Point(124, 552);
             this.guna2TextBoxRegisterTelefon.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2TextBoxRegisterTelefon.Name = "guna2TextBoxRegisterTelefon";
             this.guna2TextBoxRegisterTelefon.PasswordChar = '\0';
@@ -339,7 +310,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxRegisterAdresa.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.guna2TextBoxRegisterAdresa.HoverState.Parent = this.guna2TextBoxRegisterAdresa;
             this.guna2TextBoxRegisterAdresa.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxRegisterAdresa.IconLeft")));
-            this.guna2TextBoxRegisterAdresa.Location = new System.Drawing.Point(114, 601);
+            this.guna2TextBoxRegisterAdresa.Location = new System.Drawing.Point(124, 613);
             this.guna2TextBoxRegisterAdresa.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2TextBoxRegisterAdresa.Name = "guna2TextBoxRegisterAdresa";
             this.guna2TextBoxRegisterAdresa.PasswordChar = '\0';
@@ -368,7 +339,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientButtonSendRegister.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButtonSendRegister.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.guna2GradientButtonSendRegister.HoverState.Parent = this.guna2GradientButtonSendRegister;
-            this.guna2GradientButtonSendRegister.Location = new System.Drawing.Point(183, 677);
+            this.guna2GradientButtonSendRegister.Location = new System.Drawing.Point(183, 736);
             this.guna2GradientButtonSendRegister.Name = "guna2GradientButtonSendRegister";
             this.guna2GradientButtonSendRegister.PressedColor = System.Drawing.Color.White;
             this.guna2GradientButtonSendRegister.ShadowDecoration.Parent = this.guna2GradientButtonSendRegister;
@@ -396,7 +367,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             "Male",
             "Female"});
             this.guna2ComboBoxGen.ItemsAppearance.Parent = this.guna2ComboBoxGen;
-            this.guna2ComboBoxGen.Location = new System.Drawing.Point(201, 436);
+            this.guna2ComboBoxGen.Location = new System.Drawing.Point(205, 448);
             this.guna2ComboBoxGen.Name = "guna2ComboBoxGen";
             this.guna2ComboBoxGen.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.guna2ComboBoxGen.ShadowDecoration.Parent = this.guna2ComboBoxGen;
@@ -441,9 +412,8 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.Controls.Add(this.guna2TextBoxRegisterEmail);
             this.Controls.Add(this.guna2TextBoxRegisterPassword);
             this.Controls.Add(this.guna2TextBoxRegisterUsername);
-            this.Controls.Add(this.guna2TextBoxRegisterNume);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2TextBoxRegisterPrenume);
+            this.Controls.Add(this.guna2TextBoxRegisterFullName);
             this.Controls.Add(this.guna2GradientCircleButton4);
             this.Controls.Add(this.guna2GradientCircleButton3);
             this.Controls.Add(this.guna2GradientCircleButton2);
@@ -465,9 +435,8 @@ namespace Proiect_PAW_Munteanu_Cristian
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton2;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton3;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterPrenume;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterFullName;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterNume;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterUsername;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterPassword;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxRegisterEmail;
