@@ -181,6 +181,18 @@
     <Compile Include="ManageAdmin.Designer.cs">
       <DependentUpon>ManageAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCategories.Designer.cs">
+      <DependentUpon>ManageCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageProducts.Designer.cs">
+      <DependentUpon>ManageProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +215,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageAdmin.resx">
       <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCategories.resx">
+      <DependentUpon>ManageCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageProducts.resx">
+      <DependentUpon>ManageProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageUser.resx">
       <DependentUpon>ManageUser.cs</DependentUpon>

@@ -18,7 +18,9 @@ namespace Proiect_PAW_Munteanu_Cristian
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
             //Application.Run(new ManageUser());
-            Application.Run(new ManageAdmin());
+            //Application.Run(new ManageAdmin());
+            //Application.Run(new ManageCategories());
+            Application.Run(new ManageProducts());
             //Application.Run(new FormRegister());
         }
     }

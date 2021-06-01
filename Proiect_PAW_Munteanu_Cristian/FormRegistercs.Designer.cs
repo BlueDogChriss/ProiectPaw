@@ -29,6 +29,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
             this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
@@ -44,6 +45,8 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientButtonSendRegister = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2ComboBoxGen = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2CircleButtonClose = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.errorProviderRegister = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderRegister)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientCircleButton1
@@ -345,7 +348,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientButtonSendRegister.ShadowDecoration.Parent = this.guna2GradientButtonSendRegister;
             this.guna2GradientButtonSendRegister.Size = new System.Drawing.Size(175, 45);
             this.guna2GradientButtonSendRegister.TabIndex = 13;
-            this.guna2GradientButtonSendRegister.Text = "Send";
+            this.guna2GradientButtonSendRegister.Text = "&Send";
             this.guna2GradientButtonSendRegister.Click += new System.EventHandler(this.guna2GradientButtonSendRegister_Click);
             // 
             // guna2ComboBoxGen
@@ -378,6 +381,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             // guna2CircleButtonClose
             // 
             this.guna2CircleButtonClose.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButtonClose.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButtonClose.CheckedState.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.CustomImages.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -392,11 +396,16 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonClose.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonClose.Image")));
             this.guna2CircleButtonClose.Location = new System.Drawing.Point(471, 12);
             this.guna2CircleButtonClose.Name = "guna2CircleButtonClose";
+            this.guna2CircleButtonClose.PressedColor = System.Drawing.Color.Transparent;
             this.guna2CircleButtonClose.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButtonClose.ShadowDecoration.Parent = this.guna2CircleButtonClose;
             this.guna2CircleButtonClose.Size = new System.Drawing.Size(44, 41);
             this.guna2CircleButtonClose.TabIndex = 15;
             this.guna2CircleButtonClose.Click += new System.EventHandler(this.guna2CircleButtonClose_Click);
+            // 
+            // errorProviderRegister
+            // 
+            this.errorProviderRegister.ContainerControl = this;
             // 
             // FormRegister
             // 
@@ -424,6 +433,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRegister";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderRegister)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -445,5 +455,6 @@ namespace Proiect_PAW_Munteanu_Cristian
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButtonSendRegister;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBoxGen;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonClose;
+        private System.Windows.Forms.ErrorProvider errorProviderRegister;
     }
 }

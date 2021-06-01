@@ -44,8 +44,20 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.dataGridViewUsers = new System.Windows.Forms.DataGridView();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PanelOrderCount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelOrdersCount = new System.Windows.Forms.Label();
+            this.guna2PanelOrdersAmount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelOrdersAmount = new System.Windows.Forms.Label();
+            this.guna2PanelOrdersLastDate = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelOrdersLastDate = new System.Windows.Forms.Label();
+            this.labelCount = new System.Windows.Forms.Label();
+            this.labelAmount = new System.Windows.Forms.Label();
+            this.labelDate = new System.Windows.Forms.Label();
             this.guna2GradientPanelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsers)).BeginInit();
+            this.guna2PanelOrderCount.SuspendLayout();
+            this.guna2PanelOrdersAmount.SuspendLayout();
+            this.guna2PanelOrdersLastDate.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientPanelTitle
@@ -60,7 +72,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientPanelTitle.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanelTitle.Name = "guna2GradientPanelTitle";
             this.guna2GradientPanelTitle.ShadowDecoration.Parent = this.guna2GradientPanelTitle;
-            this.guna2GradientPanelTitle.Size = new System.Drawing.Size(1035, 100);
+            this.guna2GradientPanelTitle.Size = new System.Drawing.Size(1060, 100);
             this.guna2GradientPanelTitle.TabIndex = 0;
             // 
             // guna2CircleButtonHome
@@ -300,7 +312,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.dataGridViewUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewUsers.Location = new System.Drawing.Point(390, 133);
             this.dataGridViewUsers.Name = "dataGridViewUsers";
-            this.dataGridViewUsers.Size = new System.Drawing.Size(599, 416);
+            this.dataGridViewUsers.Size = new System.Drawing.Size(613, 340);
             this.dataGridViewUsers.TabIndex = 10;
             this.dataGridViewUsers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewUsers_CellContentClick);
             // 
@@ -311,18 +323,121 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.MediumSpringGreen;
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.SkyBlue;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.MediumSpringGreen;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 626);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 643);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1035, 24);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1060, 24);
             this.guna2CustomGradientPanel1.TabIndex = 11;
+            // 
+            // guna2PanelOrderCount
+            // 
+            this.guna2PanelOrderCount.BackColor = System.Drawing.Color.Orange;
+            this.guna2PanelOrderCount.Controls.Add(this.labelCount);
+            this.guna2PanelOrderCount.Controls.Add(this.labelOrdersCount);
+            this.guna2PanelOrderCount.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2PanelOrderCount.ForeColor = System.Drawing.Color.White;
+            this.guna2PanelOrderCount.Location = new System.Drawing.Point(390, 508);
+            this.guna2PanelOrderCount.Name = "guna2PanelOrderCount";
+            this.guna2PanelOrderCount.ShadowDecoration.Parent = this.guna2PanelOrderCount;
+            this.guna2PanelOrderCount.Size = new System.Drawing.Size(164, 100);
+            this.guna2PanelOrderCount.TabIndex = 12;
+            // 
+            // labelOrdersCount
+            // 
+            this.labelOrdersCount.AutoSize = true;
+            this.labelOrdersCount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOrdersCount.Location = new System.Drawing.Point(23, 7);
+            this.labelOrdersCount.Name = "labelOrdersCount";
+            this.labelOrdersCount.Size = new System.Drawing.Size(119, 22);
+            this.labelOrdersCount.TabIndex = 0;
+            this.labelOrdersCount.Text = "Orders Count";
+            // 
+            // guna2PanelOrdersAmount
+            // 
+            this.guna2PanelOrdersAmount.BackColor = System.Drawing.Color.DarkMagenta;
+            this.guna2PanelOrdersAmount.Controls.Add(this.labelAmount);
+            this.guna2PanelOrdersAmount.Controls.Add(this.labelOrdersAmount);
+            this.guna2PanelOrdersAmount.Location = new System.Drawing.Point(617, 508);
+            this.guna2PanelOrdersAmount.Name = "guna2PanelOrdersAmount";
+            this.guna2PanelOrdersAmount.ShadowDecoration.Parent = this.guna2PanelOrdersAmount;
+            this.guna2PanelOrdersAmount.Size = new System.Drawing.Size(164, 100);
+            this.guna2PanelOrdersAmount.TabIndex = 13;
+            // 
+            // labelOrdersAmount
+            // 
+            this.labelOrdersAmount.AutoSize = true;
+            this.labelOrdersAmount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOrdersAmount.ForeColor = System.Drawing.Color.White;
+            this.labelOrdersAmount.Location = new System.Drawing.Point(22, 7);
+            this.labelOrdersAmount.Name = "labelOrdersAmount";
+            this.labelOrdersAmount.Size = new System.Drawing.Size(119, 22);
+            this.labelOrdersAmount.TabIndex = 1;
+            this.labelOrdersAmount.Text = "Orders Count";
+            // 
+            // guna2PanelOrdersLastDate
+            // 
+            this.guna2PanelOrdersLastDate.BackColor = System.Drawing.Color.RoyalBlue;
+            this.guna2PanelOrdersLastDate.Controls.Add(this.labelDate);
+            this.guna2PanelOrdersLastDate.Controls.Add(this.labelOrdersLastDate);
+            this.guna2PanelOrdersLastDate.Location = new System.Drawing.Point(839, 508);
+            this.guna2PanelOrdersLastDate.Name = "guna2PanelOrdersLastDate";
+            this.guna2PanelOrdersLastDate.ShadowDecoration.Parent = this.guna2PanelOrdersLastDate;
+            this.guna2PanelOrdersLastDate.Size = new System.Drawing.Size(164, 100);
+            this.guna2PanelOrdersLastDate.TabIndex = 14;
+            // 
+            // labelOrdersLastDate
+            // 
+            this.labelOrdersLastDate.AutoSize = true;
+            this.labelOrdersLastDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOrdersLastDate.ForeColor = System.Drawing.Color.White;
+            this.labelOrdersLastDate.Location = new System.Drawing.Point(22, 7);
+            this.labelOrdersLastDate.Name = "labelOrdersLastDate";
+            this.labelOrdersLastDate.Size = new System.Drawing.Size(119, 22);
+            this.labelOrdersLastDate.TabIndex = 1;
+            this.labelOrdersLastDate.Text = "Orders Count";
+            this.labelOrdersLastDate.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labelCount
+            // 
+            this.labelCount.AutoSize = true;
+            this.labelCount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCount.Location = new System.Drawing.Point(52, 39);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(61, 22);
+            this.labelCount.TabIndex = 1;
+            this.labelCount.Text = "Count";
+            // 
+            // labelAmount
+            // 
+            this.labelAmount.AutoSize = true;
+            this.labelAmount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAmount.ForeColor = System.Drawing.Color.White;
+            this.labelAmount.Location = new System.Drawing.Point(44, 39);
+            this.labelAmount.Name = "labelAmount";
+            this.labelAmount.Size = new System.Drawing.Size(78, 22);
+            this.labelAmount.TabIndex = 2;
+            this.labelAmount.Text = "Amount";
+            // 
+            // labelDate
+            // 
+            this.labelDate.AutoSize = true;
+            this.labelDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDate.ForeColor = System.Drawing.Color.White;
+            this.labelDate.Location = new System.Drawing.Point(56, 39);
+            this.labelDate.Name = "labelDate";
+            this.labelDate.Size = new System.Drawing.Size(50, 22);
+            this.labelDate.TabIndex = 2;
+            this.labelDate.Text = "Date";
             // 
             // ManageUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1035, 650);
+            this.ClientSize = new System.Drawing.Size(1060, 667);
+            this.Controls.Add(this.guna2PanelOrdersLastDate);
+            this.Controls.Add(this.guna2PanelOrdersAmount);
+            this.Controls.Add(this.guna2PanelOrderCount);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.dataGridViewUsers);
             this.Controls.Add(this.buttonUpdate);
@@ -343,6 +458,12 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2GradientPanelTitle.ResumeLayout(false);
             this.guna2GradientPanelTitle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsers)).EndInit();
+            this.guna2PanelOrderCount.ResumeLayout(false);
+            this.guna2PanelOrderCount.PerformLayout();
+            this.guna2PanelOrdersAmount.ResumeLayout(false);
+            this.guna2PanelOrdersAmount.PerformLayout();
+            this.guna2PanelOrdersLastDate.ResumeLayout(false);
+            this.guna2PanelOrdersLastDate.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -363,5 +484,14 @@ namespace Proiect_PAW_Munteanu_Cristian
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonHome;
         private System.Windows.Forms.DataGridView dataGridViewUsers;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2PanelOrderCount;
+        private System.Windows.Forms.Label labelOrdersCount;
+        private Guna.UI2.WinForms.Guna2Panel guna2PanelOrdersAmount;
+        private System.Windows.Forms.Label labelOrdersAmount;
+        private Guna.UI2.WinForms.Guna2Panel guna2PanelOrdersLastDate;
+        private System.Windows.Forms.Label labelOrdersLastDate;
+        private System.Windows.Forms.Label labelCount;
+        private System.Windows.Forms.Label labelAmount;
+        private System.Windows.Forms.Label labelDate;
     }
 }

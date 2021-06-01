@@ -32,9 +32,9 @@ namespace Proiect_PAW_Munteanu_Cristian
                 dataGridViewUsers.DataSource = dataSet.Tables[0];
                 Conex.Close();
             }
-            catch
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -52,7 +52,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             try
             {
                 Conex.Open();
-                SqlCommand cmd = new SqlCommand("insert into UserTable values('" + guna2TextBoxUserName.Text + "','" + guna2TextBoxPassword.Text + "','" + guna2TextBoxFullName.Text + "','" + guna2TextBoxTelefon.Text + "','" + guna2TextBoxEmail.Text + "','" + guna2TextBoxAdresa.Text + "')", Conex);
+                SqlCommand cmd = new SqlCommand("insert into UserTable values('" + guna2TextBoxUserName.Text + "','" + guna2TextBoxFullName.Text + "','" +  guna2TextBoxPassword.Text + "','" + guna2TextBoxTelefon.Text + "','" + guna2TextBoxEmail.Text + "','" + guna2TextBoxAdresa.Text + "')", Conex);
                 cmd.ExecuteNonQuery();
                 const string mesaj = "User adaugat in baza de date!";
                 MessageBox.Show(mesaj);
@@ -60,9 +60,9 @@ namespace Proiect_PAW_Munteanu_Cristian
                 Conex.Close();
                 populare();
             }
-            catch
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -75,7 +75,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         {
             const string msgApprove = "Enter User Phone Number";
             const string msgDelete = "User sters cu succes!";
-            if (guna2TextBoxTelefon.Text == " ")
+            if (guna2TextBoxTelefon.Text == "")
             {
                 
                 MessageBox.Show(msgApprove);
@@ -111,18 +111,23 @@ namespace Proiect_PAW_Munteanu_Cristian
             try
             {
                 Conex.Open();
-                SqlCommand cmd = new SqlCommand("update UserTable set Uname='"+ guna2TextBoxUserName.Text + "',Upassword='" + guna2TextBoxPassword.Text + "',UFullname='"+guna2TextBoxFullName.Text  + "',UTelefone='" + guna2TextBoxTelefon.Text +"',UEmail='"+ guna2TextBoxEmail.Text + "',UAdress='"+ guna2TextBoxAdresa.Text + "' where UTelefone='"+ guna2TextBoxTelefon.Text + "'", Conex);
+                SqlCommand cmd = new SqlCommand("update UserTable set Uname='"+ guna2TextBoxUserName.Text + "',UFullname='" + guna2TextBoxPassword.Text + "',Upassword='"+ guna2TextBoxPassword.Text + "',UTelefone='" + guna2TextBoxTelefon.Text +"',UEmail='"+ guna2TextBoxEmail.Text + "',UAdress='"+ guna2TextBoxAdresa.Text + "' where UTelefone='"+ guna2TextBoxTelefon.Text + "'", Conex);
                 cmd.ExecuteNonQuery();
-                const string mesaj = "User actualizat in baza de date!";
+                const string mesaj = "User actualizat in baza de date!"; 
                 MessageBox.Show(mesaj);
                 /*,MessageBoxButtons.OK,MessageBoxIcon.Information);*/
                 Conex.Close();
                 populare();
             }
-            catch
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
