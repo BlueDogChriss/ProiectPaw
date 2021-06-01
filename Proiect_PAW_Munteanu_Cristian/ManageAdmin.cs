@@ -118,5 +118,12 @@ namespace Proiect_PAW_Munteanu_Cristian
         {
             populare();
         }
+
+        private void guna2CircleButtonHome_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
+        }
     }
 }

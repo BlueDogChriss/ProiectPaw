@@ -83,6 +83,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonHome.ShadowDecoration.Parent = this.guna2CircleButtonHome;
             this.guna2CircleButtonHome.Size = new System.Drawing.Size(55, 53);
             this.guna2CircleButtonHome.TabIndex = 10;
+            this.guna2CircleButtonHome.Click += new System.EventHandler(this.guna2CircleButtonHome_Click);
             // 
             // label1
             // 

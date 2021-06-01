@@ -45,14 +45,14 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.dataGridViewUsers = new System.Windows.Forms.DataGridView();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PanelOrderCount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelCount = new System.Windows.Forms.Label();
             this.labelOrdersCount = new System.Windows.Forms.Label();
             this.guna2PanelOrdersAmount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelAmount = new System.Windows.Forms.Label();
             this.labelOrdersAmount = new System.Windows.Forms.Label();
             this.guna2PanelOrdersLastDate = new Guna.UI2.WinForms.Guna2Panel();
-            this.labelOrdersLastDate = new System.Windows.Forms.Label();
-            this.labelCount = new System.Windows.Forms.Label();
-            this.labelAmount = new System.Windows.Forms.Label();
             this.labelDate = new System.Windows.Forms.Label();
+            this.labelOrdersLastDate = new System.Windows.Forms.Label();
             this.guna2GradientPanelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsers)).BeginInit();
             this.guna2PanelOrderCount.SuspendLayout();
@@ -96,6 +96,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonHome.ShadowDecoration.Parent = this.guna2CircleButtonHome;
             this.guna2CircleButtonHome.Size = new System.Drawing.Size(55, 53);
             this.guna2CircleButtonHome.TabIndex = 10;
+            this.guna2CircleButtonHome.Click += new System.EventHandler(this.guna2CircleButtonHome_Click);
             // 
             // label1
             // 
@@ -342,6 +343,16 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2PanelOrderCount.Size = new System.Drawing.Size(164, 100);
             this.guna2PanelOrderCount.TabIndex = 12;
             // 
+            // labelCount
+            // 
+            this.labelCount.AutoSize = true;
+            this.labelCount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCount.Location = new System.Drawing.Point(52, 39);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(61, 22);
+            this.labelCount.TabIndex = 1;
+            this.labelCount.Text = "Count";
+            // 
             // labelOrdersCount
             // 
             this.labelOrdersCount.AutoSize = true;
@@ -362,6 +373,17 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2PanelOrdersAmount.ShadowDecoration.Parent = this.guna2PanelOrdersAmount;
             this.guna2PanelOrdersAmount.Size = new System.Drawing.Size(164, 100);
             this.guna2PanelOrdersAmount.TabIndex = 13;
+            // 
+            // labelAmount
+            // 
+            this.labelAmount.AutoSize = true;
+            this.labelAmount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAmount.ForeColor = System.Drawing.Color.White;
+            this.labelAmount.Location = new System.Drawing.Point(44, 39);
+            this.labelAmount.Name = "labelAmount";
+            this.labelAmount.Size = new System.Drawing.Size(78, 22);
+            this.labelAmount.TabIndex = 2;
+            this.labelAmount.Text = "Amount";
             // 
             // labelOrdersAmount
             // 
@@ -385,6 +407,17 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2PanelOrdersLastDate.Size = new System.Drawing.Size(164, 100);
             this.guna2PanelOrdersLastDate.TabIndex = 14;
             // 
+            // labelDate
+            // 
+            this.labelDate.AutoSize = true;
+            this.labelDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDate.ForeColor = System.Drawing.Color.White;
+            this.labelDate.Location = new System.Drawing.Point(56, 39);
+            this.labelDate.Name = "labelDate";
+            this.labelDate.Size = new System.Drawing.Size(50, 22);
+            this.labelDate.TabIndex = 2;
+            this.labelDate.Text = "Date";
+            // 
             // labelOrdersLastDate
             // 
             this.labelOrdersLastDate.AutoSize = true;
@@ -396,38 +429,6 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.labelOrdersLastDate.TabIndex = 1;
             this.labelOrdersLastDate.Text = "Orders Count";
             this.labelOrdersLastDate.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labelCount
-            // 
-            this.labelCount.AutoSize = true;
-            this.labelCount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCount.Location = new System.Drawing.Point(52, 39);
-            this.labelCount.Name = "labelCount";
-            this.labelCount.Size = new System.Drawing.Size(61, 22);
-            this.labelCount.TabIndex = 1;
-            this.labelCount.Text = "Count";
-            // 
-            // labelAmount
-            // 
-            this.labelAmount.AutoSize = true;
-            this.labelAmount.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAmount.ForeColor = System.Drawing.Color.White;
-            this.labelAmount.Location = new System.Drawing.Point(44, 39);
-            this.labelAmount.Name = "labelAmount";
-            this.labelAmount.Size = new System.Drawing.Size(78, 22);
-            this.labelAmount.TabIndex = 2;
-            this.labelAmount.Text = "Amount";
-            // 
-            // labelDate
-            // 
-            this.labelDate.AutoSize = true;
-            this.labelDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDate.ForeColor = System.Drawing.Color.White;
-            this.labelDate.Location = new System.Drawing.Point(56, 39);
-            this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(50, 22);
-            this.labelDate.TabIndex = 2;
-            this.labelDate.Text = "Date";
             // 
             // ManageUser
             // 

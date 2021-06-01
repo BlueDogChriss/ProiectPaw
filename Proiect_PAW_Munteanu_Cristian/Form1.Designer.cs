@@ -35,7 +35,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2TextBoxPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CircleButtonClose = new Guna.UI2.WinForms.Guna2CircleButton();
             this.comboBoxRol = new System.Windows.Forms.ComboBox();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2Gradient1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelNumeFirma = new System.Windows.Forms.Label();
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
@@ -150,7 +150,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             // 
             this.comboBoxRol.BackColor = System.Drawing.Color.White;
             this.comboBoxRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxRol.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxRol.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRol.FormattingEnabled = true;
             this.comboBoxRol.Items.AddRange(new object[] {
@@ -158,34 +158,35 @@ namespace Proiect_PAW_Munteanu_Cristian
             "USER"});
             this.comboBoxRol.Location = new System.Drawing.Point(423, 142);
             this.comboBoxRol.Name = "comboBoxRol";
-            this.comboBoxRol.Size = new System.Drawing.Size(123, 28);
+            this.comboBoxRol.Size = new System.Drawing.Size(123, 30);
             this.comboBoxRol.TabIndex = 5;
             this.comboBoxRol.Text = "Select Role";
             // 
-            // guna2GradientButton1
+            // guna2Gradient1
             // 
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 15;
-            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.DisabledState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.MediumSpringGreen;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(382, 309);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton1.TabIndex = 6;
-            this.guna2GradientButton1.Text = "Log In";
+            this.guna2Gradient1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Gradient1.BorderRadius = 15;
+            this.guna2Gradient1.CheckedState.Parent = this.guna2Gradient1;
+            this.guna2Gradient1.CustomImages.Parent = this.guna2Gradient1;
+            this.guna2Gradient1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Gradient1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Gradient1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Gradient1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Gradient1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Gradient1.DisabledState.Parent = this.guna2Gradient1;
+            this.guna2Gradient1.FillColor = System.Drawing.Color.SkyBlue;
+            this.guna2Gradient1.FillColor2 = System.Drawing.Color.MediumSpringGreen;
+            this.guna2Gradient1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Gradient1.ForeColor = System.Drawing.Color.White;
+            this.guna2Gradient1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.guna2Gradient1.HoverState.Parent = this.guna2Gradient1;
+            this.guna2Gradient1.Location = new System.Drawing.Point(382, 309);
+            this.guna2Gradient1.Name = "guna2Gradient1";
+            this.guna2Gradient1.ShadowDecoration.Parent = this.guna2Gradient1;
+            this.guna2Gradient1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Gradient1.TabIndex = 6;
+            this.guna2Gradient1.Text = "Log In";
+            this.guna2Gradient1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // pictureBox1
             // 
@@ -304,7 +305,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.Controls.Add(this.guna2GradientCircleButton2);
             this.Controls.Add(this.labelNumeFirma);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.guna2Gradient1);
             this.Controls.Add(this.comboBoxRol);
             this.Controls.Add(this.guna2CircleButtonClose);
             this.Controls.Add(this.guna2TextBoxPassword);
@@ -328,7 +329,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBoxPassword;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonClose;
         private System.Windows.Forms.ComboBox comboBoxRol;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2Gradient1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelNumeFirma;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton2;

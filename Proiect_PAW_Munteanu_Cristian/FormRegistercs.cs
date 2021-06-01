@@ -8,25 +8,66 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace Proiect_PAW_Munteanu_Cristian
 {
     public partial class FormRegister : Form
     {
+        List<Users> UsersList = new List<Users>();
+        public static Users u = new Users();
         public FormRegister()
         {
             InitializeComponent();
         }
-        SqlConnection Conex2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Cristi\Documents\HardwareShop.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void guna2GradientButtonSendRegister_Click(object sender, EventArgs e)
         {
-            
+            string UName = guna2TextBoxRegisterUsername.Text;
+            string FullName= guna2TextBoxRegisterFullName.Text;
+            string UPassword= guna2TextBoxRegisterPassword.Text;
+            string UTelefone= guna2TextBoxRegisterTelefon.Text;
+            string UEmail= guna2TextBoxRegisterEmail.Text;
+            string UAdress= guna2TextBoxRegisterAdresa.Text;
+
+            if (guna2TextBoxRegisterUsername.Text == "" || guna2TextBoxRegisterFullName.Text == "" || guna2TextBoxRegisterPassword.Text == "" || guna2TextBoxRegisterTelefon.Text == "" || guna2TextBoxRegisterEmail.Text == "" || guna2TextBoxRegisterAdresa.Text == "")
+            {
+                MessageBox.Show("Unul sau mai multe campuri ale formularului sunt goale!");
+            }
+            else { 
+                UsersList.Add(new Users(UName, FullName, UPassword, UTelefone, UEmail, UAdress));
+                foreach (var user in UsersList)
+                {
+                    MessageBox.Show(user.ToString() + "\n");
+                }
+            }
+
             try
             {
-                if (string.IsNullOrEmpty(guna2TextBoxRegisterFullName.Text)) 
+                u.Username = UName;
+                u.FullName = FullName;
+                u.Password = UPassword;
+                u.Telefon = UTelefone;
+                u.Email = UEmail;
+                u.Adress = UAdress;
+                TextWriter tw = new StreamWriter("UserList.txt");
+                foreach (var u in UsersList)
                 {
-                    errorProviderRegister.SetError(guna2TextBoxRegisterFullName,"Introduceti un nume!");
+                    tw.WriteLine(u);
+                }
+                tw.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            SqlConnection Conex2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Cristi\Documents\HardwareShop.mdf;Integrated Security=True;Connect Timeout=30");
+
+            try
+            {
+                if (string.IsNullOrEmpty(guna2TextBoxRegisterFullName.Text))
+                {
+                    errorProviderRegister.SetError(guna2TextBoxRegisterFullName, "Introduceti un nume!");
                 }
                 else
                      if (string.IsNullOrEmpty(guna2TextBoxRegisterUsername.Text))
@@ -58,25 +99,27 @@ namespace Proiect_PAW_Munteanu_Cristian
                 {
                     errorProviderRegister.SetError(guna2TextBoxRegisterAdresa, "Introduceti o adresa!");
                 }
-               else { 
-                    Conex2.Open();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            try
+                { 
+                Conex2.Open();
                 SqlCommand cmd = new SqlCommand("insert into UserTable values('" + guna2TextBoxRegisterUsername.Text + "','" + guna2TextBoxRegisterFullName.Text + "','" +  guna2TextBoxRegisterPassword.Text + "','" + guna2TextBoxRegisterTelefon.Text + "','" + guna2TextBoxRegisterEmail.Text + "','" + guna2TextBoxRegisterAdresa.Text + "')", Conex2);
                 cmd.ExecuteNonQuery();
                 const string mesaj = "V-ati inregistrat cu succes!";
                 MessageBox.Show(mesaj);
-                /*,MessageBoxButtons.OK,MessageBoxIcon.Information);*/
                 Conex2.Close();
-                this.Hide();
-                Form1 f1 = new Form1();
-                f1.ShowDialog();
                 }
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-         
-            
+                finally
+                {
+                    this.Hide();
+                    Form1 f1 = new Form1();
+                    f1.ShowDialog();
+                }
+
         }
 
         private void guna2CircleButtonClose_Click(object sender, EventArgs e)

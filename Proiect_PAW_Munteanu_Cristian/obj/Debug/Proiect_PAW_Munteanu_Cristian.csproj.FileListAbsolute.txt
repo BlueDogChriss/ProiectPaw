@@ -87,3 +87,7 @@ E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Crist
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ManageAdmin.resources
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ManageCategories.resources
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ManageProducts.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ManageOrders.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ViewOrders.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.HomePage.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.HomePage1.resources

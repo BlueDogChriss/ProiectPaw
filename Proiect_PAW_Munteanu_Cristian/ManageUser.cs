@@ -104,6 +104,25 @@ namespace Proiect_PAW_Munteanu_Cristian
             guna2TextBoxEmail.Text = dgViewRow.Cells[4].Value.ToString();
             guna2TextBoxAdresa.Text = dgViewRow.Cells[5].Value.ToString();
             }
+            Conex.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("select Count(*) from OrdersTable where TelefonUser = " + guna2TextBoxTelefon.Text + "", Conex);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            labelCount.Text = dt.Rows[0][0].ToString();
+
+            SqlDataAdapter sda1 = new SqlDataAdapter("select Sum(CostTotal) from OrdersTable where TelefonUser = " + guna2TextBoxTelefon.Text + "", Conex);
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt1);
+            labelAmount.Text = dt1.Rows[0][0].ToString();
+
+            SqlDataAdapter sda2 = new SqlDataAdapter("select Max(OrderDate) from OrdersTable where TelefonUser = " + guna2TextBoxTelefon.Text + "", Conex);
+            DataTable dt2 = new DataTable();
+            sda2.Fill(dt2);
+            labelDate.Text = dt2.Rows[0][0].ToString();
+
+            Conex.Close();
+
+
         }
 
         private void buttonUpdate_Click(object sender, EventArgs e)
@@ -128,6 +147,13 @@ namespace Proiect_PAW_Munteanu_Cristian
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2CircleButtonHome_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
         }
     }
 }

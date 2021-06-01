@@ -87,6 +87,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonHome.ShadowDecoration.Parent = this.guna2CircleButtonHome;
             this.guna2CircleButtonHome.Size = new System.Drawing.Size(55, 53);
             this.guna2CircleButtonHome.TabIndex = 10;
+            this.guna2CircleButtonHome.Click += new System.EventHandler(this.guna2CircleButtonHome_Click);
             // 
             // label1
             // 
@@ -95,9 +96,9 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(48, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 33);
+            this.label1.Size = new System.Drawing.Size(257, 33);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Manage Users";
+            this.label1.Text = "Manage Products";
             // 
             // guna2CustomGradientPanel1
             // 

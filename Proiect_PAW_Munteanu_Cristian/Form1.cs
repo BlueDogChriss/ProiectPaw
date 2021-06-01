@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Proiect_PAW_Munteanu_Cristian
 {
@@ -16,6 +17,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         {
             InitializeComponent();
         }
+        SqlConnection Conex = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Cristi\Documents\HardwareShop.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void labelNumeFirma_Click(object sender, EventArgs e)
         {
@@ -56,6 +58,45 @@ namespace Proiect_PAW_Munteanu_Cristian
             
         }
 
-      
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            //if(comboBoxRol.SelectedItem=="ADMIN")
+            //{
+                Conex.Open();
+                SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from AdminsTable where AdminUN='" + guna2TextBoxUsername.Text + "' and AdminPass='" + guna2TextBoxPassword.Text + "'", Conex);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                if (dt.Rows[0][0].ToString() == "1")
+                {
+                    this.Hide();
+                    HomePage home = new HomePage();
+                    home.Show();
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Wrong Username or Password");
+                }
+                Conex.Close();
+            //}
+            //else
+            //{
+            //    Conex.Open();
+            //    SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from UsersTable where UName='" + guna2TextBoxUsername.Text + "' and Upassword='" + guna2TextBoxPassword.Text + "'", Conex);
+            //    DataTable dt = new DataTable();
+            //    sda.Fill(dt);
+            //    if (dt.Rows[0][0].ToString() == "1")
+            //    {
+            //        HomePage homePage = new HomePage();
+            //        homePage.Show();
+            //        this.Hide();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Wrong Username or Password");
+            //    }
+            //    Conex.Close();
+            //}
+        }
     }
 }
