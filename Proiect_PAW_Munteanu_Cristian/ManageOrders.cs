@@ -119,10 +119,10 @@ namespace Proiect_PAW_Munteanu_Cristian
             flag = 1;
           
         }
-        
+        float suma = 0;
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            float suma = 0;
+            
          
             DataTable table;
             if (dataGridViewComanda.Rows.Count > 0)
@@ -159,6 +159,7 @@ namespace Proiect_PAW_Munteanu_Cristian
                 table.Rows.Add(num, produs, qty, uprice, totprice);
                 dataGridViewComanda.DataSource = table;
                 flag = 0;
+                
             }
                 suma = suma + totprice;
                 labelRezultat.Text = suma.ToString();
