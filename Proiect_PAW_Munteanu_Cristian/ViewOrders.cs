@@ -80,5 +80,13 @@ namespace Proiect_PAW_Munteanu_Cristian
                 printDocument1.Print();
             }
         }
+
+        private void afisatiGraficToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
     }
 }

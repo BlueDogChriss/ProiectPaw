@@ -1,7 +1,7 @@
-User Name: bluedada
-Full Name: Munteanu Cristian
-Password: parola
-Telefon: 07iarceva
-Email: email@email.ceva
-Adresa: adresa
+User Name: ceva
+Full Name: Nume Prenume
+Password: deva
+Telefon: 0734506298
+Email: ceva@email.com
+Adresa: strada mare
 

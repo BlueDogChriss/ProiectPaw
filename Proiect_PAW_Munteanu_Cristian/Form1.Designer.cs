@@ -185,7 +185,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2Gradient1.ShadowDecoration.Parent = this.guna2Gradient1;
             this.guna2Gradient1.Size = new System.Drawing.Size(180, 45);
             this.guna2Gradient1.TabIndex = 6;
-            this.guna2Gradient1.Text = "Log In";
+            this.guna2Gradient1.Text = "&Log In";
             this.guna2Gradient1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // pictureBox1

@@ -63,5 +63,10 @@ namespace Proiect_PAW_Munteanu_Cristian
             comenzi.Show();
             this.Hide();
         }
+
+        private void guna2CircleButtonClose_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

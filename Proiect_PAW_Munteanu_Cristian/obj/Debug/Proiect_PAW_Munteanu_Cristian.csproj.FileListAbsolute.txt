@@ -91,3 +91,6 @@ E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Crist
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.ViewOrders.resources
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.HomePage.resources
 E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.HomePage1.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.AddCart.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.Grafic.resources
+E:\ProiectPaw\Proiect_PAW_Munteanu_Cristian\obj\Debug\Proiect_PAW_Munteanu_Cristian.HomePageUser.resources

@@ -29,6 +29,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -41,9 +42,12 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.afisatiGraficToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2GradientPanelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridViewOrders)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientPanelTitle
@@ -159,6 +163,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.SkyBlue;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.printToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -174,12 +179,29 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.printToolStripMenuItem.Text = "Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afisatiGraficToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(106, 26);
+            // 
+            // afisatiGraficToolStripMenuItem
+            // 
+            this.afisatiGraficToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.afisatiGraficToolStripMenuItem.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.afisatiGraficToolStripMenuItem.Name = "afisatiGraficToolStripMenuItem";
+            this.afisatiGraficToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.afisatiGraficToolStripMenuItem.Text = "Print";
+            this.afisatiGraficToolStripMenuItem.Click += new System.EventHandler(this.afisatiGraficToolStripMenuItem_Click);
+            // 
             // ViewOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1060, 667);
+            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.guna2DataGridViewOrders);
             this.Controls.Add(this.guna2GradientPanelTitle);
@@ -195,6 +217,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridViewOrders)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,5 +233,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem afisatiGraficToolStripMenuItem;
     }
 }

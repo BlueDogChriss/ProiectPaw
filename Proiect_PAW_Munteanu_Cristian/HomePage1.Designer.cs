@@ -33,11 +33,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2CircleButtonClose = new Guna.UI2.WinForms.Guna2CircleButton();
             this.labelNumeFirma = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2CircleButtonProductsList = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButtonUsers = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButtonCategories = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButtonOrders = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButtonAdmins = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButtonCumpara = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton3 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
@@ -96,125 +92,29 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // guna2CircleButtonProductsList
+            // guna2CircleButtonCumpara
             // 
-            this.guna2CircleButtonProductsList.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButtonProductsList.CheckedState.Parent = this.guna2CircleButtonProductsList;
-            this.guna2CircleButtonProductsList.CustomImages.Parent = this.guna2CircleButtonProductsList;
-            this.guna2CircleButtonProductsList.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonProductsList.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonProductsList.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButtonProductsList.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButtonProductsList.DisabledState.Parent = this.guna2CircleButtonProductsList;
-            this.guna2CircleButtonProductsList.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleButtonProductsList.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButtonProductsList.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButtonProductsList.HoverState.Parent = this.guna2CircleButtonProductsList;
-            this.guna2CircleButtonProductsList.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonProductsList.Image")));
-            this.guna2CircleButtonProductsList.Location = new System.Drawing.Point(77, 225);
-            this.guna2CircleButtonProductsList.Name = "guna2CircleButtonProductsList";
-            this.guna2CircleButtonProductsList.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButtonProductsList.ShadowDecoration.Parent = this.guna2CircleButtonProductsList;
-            this.guna2CircleButtonProductsList.Size = new System.Drawing.Size(137, 133);
-            this.guna2CircleButtonProductsList.TabIndex = 11;
-            this.guna2CircleButtonProductsList.Text = "Lista Produse";
-            this.guna2CircleButtonProductsList.Click += new System.EventHandler(this.guna2CircleButtonProductsList_Click);
-            // 
-            // guna2CircleButtonUsers
-            // 
-            this.guna2CircleButtonUsers.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButtonUsers.CheckedState.Parent = this.guna2CircleButtonUsers;
-            this.guna2CircleButtonUsers.CustomImages.Parent = this.guna2CircleButtonUsers;
-            this.guna2CircleButtonUsers.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonUsers.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonUsers.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButtonUsers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButtonUsers.DisabledState.Parent = this.guna2CircleButtonUsers;
-            this.guna2CircleButtonUsers.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleButtonUsers.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButtonUsers.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButtonUsers.HoverState.Parent = this.guna2CircleButtonUsers;
-            this.guna2CircleButtonUsers.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonUsers.Image")));
-            this.guna2CircleButtonUsers.Location = new System.Drawing.Point(221, 399);
-            this.guna2CircleButtonUsers.Name = "guna2CircleButtonUsers";
-            this.guna2CircleButtonUsers.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButtonUsers.ShadowDecoration.Parent = this.guna2CircleButtonUsers;
-            this.guna2CircleButtonUsers.Size = new System.Drawing.Size(137, 133);
-            this.guna2CircleButtonUsers.TabIndex = 12;
-            this.guna2CircleButtonUsers.Text = "Users";
-            this.guna2CircleButtonUsers.Click += new System.EventHandler(this.guna2CircleButtonUsers_Click);
-            // 
-            // guna2CircleButtonCategories
-            // 
-            this.guna2CircleButtonCategories.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButtonCategories.CheckedState.Parent = this.guna2CircleButtonCategories;
-            this.guna2CircleButtonCategories.CustomImages.Parent = this.guna2CircleButtonCategories;
-            this.guna2CircleButtonCategories.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonCategories.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonCategories.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButtonCategories.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButtonCategories.DisabledState.Parent = this.guna2CircleButtonCategories;
-            this.guna2CircleButtonCategories.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleButtonCategories.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButtonCategories.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButtonCategories.HoverState.Parent = this.guna2CircleButtonCategories;
-            this.guna2CircleButtonCategories.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonCategories.Image")));
-            this.guna2CircleButtonCategories.Location = new System.Drawing.Point(572, 399);
-            this.guna2CircleButtonCategories.Name = "guna2CircleButtonCategories";
-            this.guna2CircleButtonCategories.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButtonCategories.ShadowDecoration.Parent = this.guna2CircleButtonCategories;
-            this.guna2CircleButtonCategories.Size = new System.Drawing.Size(137, 133);
-            this.guna2CircleButtonCategories.TabIndex = 13;
-            this.guna2CircleButtonCategories.Text = "Categorii";
-            this.guna2CircleButtonCategories.Click += new System.EventHandler(this.guna2CircleButtonCategories_Click);
-            // 
-            // guna2CircleButtonOrders
-            // 
-            this.guna2CircleButtonOrders.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButtonOrders.CheckedState.Parent = this.guna2CircleButtonOrders;
-            this.guna2CircleButtonOrders.CustomImages.Parent = this.guna2CircleButtonOrders;
-            this.guna2CircleButtonOrders.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonOrders.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonOrders.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButtonOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButtonOrders.DisabledState.Parent = this.guna2CircleButtonOrders;
-            this.guna2CircleButtonOrders.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleButtonOrders.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButtonOrders.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButtonOrders.HoverState.Parent = this.guna2CircleButtonOrders;
-            this.guna2CircleButtonOrders.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonOrders.Image")));
-            this.guna2CircleButtonOrders.Location = new System.Drawing.Point(671, 240);
-            this.guna2CircleButtonOrders.Name = "guna2CircleButtonOrders";
-            this.guna2CircleButtonOrders.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButtonOrders.ShadowDecoration.Parent = this.guna2CircleButtonOrders;
-            this.guna2CircleButtonOrders.Size = new System.Drawing.Size(137, 133);
-            this.guna2CircleButtonOrders.TabIndex = 14;
-            this.guna2CircleButtonOrders.Text = "Comenzi";
-            this.guna2CircleButtonOrders.Click += new System.EventHandler(this.guna2CircleButtonOrders_Click);
-            // 
-            // guna2CircleButtonAdmins
-            // 
-            this.guna2CircleButtonAdmins.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButtonAdmins.CheckedState.Parent = this.guna2CircleButtonAdmins;
-            this.guna2CircleButtonAdmins.CustomImages.Parent = this.guna2CircleButtonAdmins;
-            this.guna2CircleButtonAdmins.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonAdmins.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButtonAdmins.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButtonAdmins.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButtonAdmins.DisabledState.Parent = this.guna2CircleButtonAdmins;
-            this.guna2CircleButtonAdmins.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleButtonAdmins.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButtonAdmins.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButtonAdmins.HoverState.Parent = this.guna2CircleButtonAdmins;
-            this.guna2CircleButtonAdmins.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonAdmins.Image")));
-            this.guna2CircleButtonAdmins.Location = new System.Drawing.Point(402, 240);
-            this.guna2CircleButtonAdmins.Name = "guna2CircleButtonAdmins";
-            this.guna2CircleButtonAdmins.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButtonAdmins.ShadowDecoration.Parent = this.guna2CircleButtonAdmins;
-            this.guna2CircleButtonAdmins.Size = new System.Drawing.Size(137, 133);
-            this.guna2CircleButtonAdmins.TabIndex = 15;
-            this.guna2CircleButtonAdmins.Text = "Admins";
-            this.guna2CircleButtonAdmins.Click += new System.EventHandler(this.guna2CircleButtonAdmins_Click);
+            this.guna2CircleButtonCumpara.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButtonCumpara.CheckedState.Parent = this.guna2CircleButtonCumpara;
+            this.guna2CircleButtonCumpara.CustomImages.Parent = this.guna2CircleButtonCumpara;
+            this.guna2CircleButtonCumpara.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButtonCumpara.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButtonCumpara.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButtonCumpara.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButtonCumpara.DisabledState.Parent = this.guna2CircleButtonCumpara;
+            this.guna2CircleButtonCumpara.FillColor = System.Drawing.Color.SkyBlue;
+            this.guna2CircleButtonCumpara.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButtonCumpara.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButtonCumpara.HoverState.Parent = this.guna2CircleButtonCumpara;
+            this.guna2CircleButtonCumpara.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButtonCumpara.Image")));
+            this.guna2CircleButtonCumpara.Location = new System.Drawing.Point(390, 278);
+            this.guna2CircleButtonCumpara.Name = "guna2CircleButtonCumpara";
+            this.guna2CircleButtonCumpara.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButtonCumpara.ShadowDecoration.Parent = this.guna2CircleButtonCumpara;
+            this.guna2CircleButtonCumpara.Size = new System.Drawing.Size(137, 133);
+            this.guna2CircleButtonCumpara.TabIndex = 14;
+            this.guna2CircleButtonCumpara.Text = "Cumpara";
+            this.guna2CircleButtonCumpara.Click += new System.EventHandler(this.guna2CircleButtonOrders_Click);
             // 
             // guna2GradientCircleButton1
             // 
@@ -326,24 +226,21 @@ namespace Proiect_PAW_Munteanu_Cristian
             this.guna2ButtonLogout.Text = "Logout";
             this.guna2ButtonLogout.Click += new System.EventHandler(this.guna2ButtonLogout_Click);
             // 
-            // HomePage
+            // HomePage1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2ButtonLogout);
             this.Controls.Add(this.guna2GradientCircleButton4);
             this.Controls.Add(this.guna2CircleButtonClose);
             this.Controls.Add(this.guna2GradientCircleButton3);
             this.Controls.Add(this.guna2GradientCircleButton2);
             this.Controls.Add(this.guna2GradientCircleButton1);
-            this.Controls.Add(this.guna2CircleButtonAdmins);
-            this.Controls.Add(this.guna2CircleButtonOrders);
-            this.Controls.Add(this.guna2CircleButtonCategories);
-            this.Controls.Add(this.guna2CircleButtonUsers);
-            this.Controls.Add(this.guna2CircleButtonProductsList);
+            this.Controls.Add(this.guna2CircleButtonCumpara);
             this.Controls.Add(this.labelNumeFirma);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "HomePage";
+            this.Name = "HomePage1";
             this.Size = new System.Drawing.Size(912, 614);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -355,11 +252,7 @@ namespace Proiect_PAW_Munteanu_Cristian
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonClose;
         private System.Windows.Forms.Label labelNumeFirma;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonProductsList;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonUsers;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonCategories;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonOrders;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonAdmins;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButtonCumpara;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton2;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton3;

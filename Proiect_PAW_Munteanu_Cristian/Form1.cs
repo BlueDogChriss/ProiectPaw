@@ -60,8 +60,9 @@ namespace Proiect_PAW_Munteanu_Cristian
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            //if(comboBoxRol.SelectedItem=="ADMIN")
-            //{
+            if (comboBoxRol.SelectedItem.ToString() == "ADMIN")
+            {
+                try { 
                 Conex.Open();
                 SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from AdminsTable where AdminUN='" + guna2TextBoxUsername.Text + "' and AdminPass='" + guna2TextBoxPassword.Text + "'", Conex);
                 DataTable dt = new DataTable();
@@ -78,25 +79,41 @@ namespace Proiect_PAW_Munteanu_Cristian
                     MessageBox.Show("Wrong Username or Password");
                 }
                 Conex.Close();
-            //}
-            //else
-            //{
-            //    Conex.Open();
-            //    SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from UsersTable where UName='" + guna2TextBoxUsername.Text + "' and Upassword='" + guna2TextBoxPassword.Text + "'", Conex);
-            //    DataTable dt = new DataTable();
-            //    sda.Fill(dt);
-            //    if (dt.Rows[0][0].ToString() == "1")
-            //    {
-            //        HomePage homePage = new HomePage();
-            //        homePage.Show();
-            //        this.Hide();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Wrong Username or Password");
-            //    }
-            //    Conex.Close();
-            //}
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else if (comboBoxRol.SelectedItem.ToString() == "USER")
+            {
+                try
+                {
+                    Conex.Open();
+                    SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from UserTable where UName='" + guna2TextBoxUsername.Text + "' and Upassword='" + guna2TextBoxPassword.Text + "'", Conex);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    if (dt.Rows[0][0].ToString() == "1")
+                    {
+                        HomePageUser homePage = new HomePageUser();
+                        homePage.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Wrong Username or Password");
+                    }
+                    Conex.Close();
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selectati Rolul!");
+            }
         }
     }
 }

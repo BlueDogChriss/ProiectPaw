@@ -115,7 +115,7 @@ namespace Proiect_PAW_Munteanu_Cristian
             sda1.Fill(dt1);
             labelAmount.Text = dt1.Rows[0][0].ToString();
 
-            SqlDataAdapter sda2 = new SqlDataAdapter("select Max(OrderDate) from OrdersTable where TelefonUser = " + guna2TextBoxTelefon.Text + "", Conex);
+            SqlDataAdapter sda2 = new SqlDataAdapter("select OrderDate from OrdersTable where TelefonUser = " + guna2TextBoxTelefon.Text + "", Conex);
             DataTable dt2 = new DataTable();
             sda2.Fill(dt2);
             labelDate.Text = dt2.Rows[0][0].ToString();
